@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.whole{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+    background-position: center; 
+}
+
+
+.img-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-grid h1{
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow:#333;
+}
+
+.middle{
+    background-image: url(images/weee.jpg);
+    background-size: cover;
+    min-width: 1vw;
+    min-height: 1vh;
+    height: 90vh;
+    width: 100vw;
+}
+
+.middle h1{
+    margin-left: 2vw;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.img{
+    width: 10vw;
+    height: 20vh;
+    border: 1px solid #ddd;
+    margin: 5px;
+    object-fit: cover; 
+    margin-top: 2vw;
+}
+
+.topnavbar{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/Spring_Lake\,_New_Jersey_Beach_at_Sunrise.jpg);
+    width: 100vw;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.botnavbar{
+    justify-content: space-between;
+    display: flex;
+    background-image: url(images/Spring_Lake\,_New_Jersey_Beach_at_Sunrise.jpg);
+    width: 100vw;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.botnavbar h5{
+    margin-left: 1vw;
+    float: left;
+    color: #000000;
+}
+
+.pages{
+    margin-top: 0.5vw;
+    margin-right: 40px;
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aquamarine;
+}
+
+.pages a{
+    color: white;
+    margin-left: 40px; 
+    text-decoration: none;
+}
+
+.logo img{
+    width: 2.5vw; 
+    height: 4vh; 
+    margin-top: 0.3vw;
+    margin-left: 2vw;
+    border-radius: 60%;
+    float: left;
+    min-width: 1vw;
+    min-height: 1vh;
+}
+
+.socmed img{
+    width: 2vw;
+    height: auto;
+    margin-right: 2vw;
+    border-radius: 60%;
+    float: right;
+    min-width: 1vw;
+    min-height: 1vh;
+    margin-top: 0.2vw;
+}
+
